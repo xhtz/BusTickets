@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomLinearLayoutHome
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="tz.co.xhcodes.com.LauncherActivity">
+    <androidx.cardview.widget.CardView
+        android:layout_gravity="center_vertical"
+        app:cardCornerRadius="50dp"
+        android:padding="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:padding="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/colorPrimary"
+                android:onClick="continueClientLogin"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:text="@string/mteja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="#FFF"
+                android:layout_width="match_parent"
+                android:layout_height="8dp" />
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/colorPrimaryOri"
+                android:onClick="continueAgentLogin"
+                android:layout_gravity="center_horizontal"
+                android:textAllCaps="false"
+                android:text="@string/wakala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomLinearLayoutHome>

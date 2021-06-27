@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="6dp"
+    tools:context="tz.co.xhcodes.com.ViewAgentsTicketsActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <tz.co.xhcodes.com.CustomLinearLayout
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ListView
+                android:dividerHeight="6dp"
+                android:padding="0dp"
+                android:drawSelectorOnTop="true"
+                android:id="@+id/tickets_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            </ListView>
+        </tz.co.xhcodes.com.CustomLinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomLinearLayout>

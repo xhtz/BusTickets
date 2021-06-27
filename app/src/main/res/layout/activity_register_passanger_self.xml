@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="tz.co.xhcodes.com.RegisterPassangerActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/redColor"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textCapSentences"
+                android:textAllCaps="true"
+                android:hint="@string/jina_la_abiria"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/passangerNameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_simu_mfano"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/passangerPhoneBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="@string/kiasi_nauli"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/farePaidBox"
+                android:inputType="numberDecimal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:text="@string/jinsia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:padding="10dp"
+                android:height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/sex_select"
+                android:id="@+id/passengerSexSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:text="@string/anapandia_njiani"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:padding="10dp"
+                android:height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/eneo_select"
+                android:id="@+id/eneoSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:text="@string/jina_la_kituo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="@string/kituo_cha_kupandia"
+                android:textColor="#222"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/eneoBox"
+                android:inputType="textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:text="@string/kituo_cha_kushukia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_kituo_cha_kushukia"
+                android:textColor="#222"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/anakoshukiaBox"
+                android:inputType="textCapSentences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:layout_weight="1"
+                android:textColor="@color/whiteColor"
+                android:background="@color/colorPrimaryOri"
+                android:onClick="saveTicket"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:text="@string/endelea"
+                android:id="@+id/saveTicketButton"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomScrollView>

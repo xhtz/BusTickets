@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <TextView
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:id="@+id/dialog_title_view"
+        android:padding="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="VIEW SAVINGS BALANCE"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <TextView
+        android:id="@+id/textView3"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:text=""
+        android:background="#DDDCCC"
+         />
+    <TextView
+        android:padding="3dp"
+        android:id="@+id/textView2"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/your_reference_number"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+    <EditText
+        android:id="@+id/referencenumber_box"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <requestFocus />
+
+    </EditText>
+
+</LinearLayout>

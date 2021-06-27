@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tz.co.xhcodes.com">
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="tz.co.xhcodes.com.LauncherActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="tz.co.xhcodes.com.ConnectBTPairedActivity"
+            android:label="Connect Printer"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND" />
+                <action android:name="android.intent.action.SEND_MULTIPLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data android:mimeType="image/*" />
+                <data android:mimeType="text/plain" />
+                <data android:mimeType="*/*" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/device_filter" />
+        </activity>
+
+        <service
+            android:name="com.lvrenyang.myprinter.WorkService"
+            android:exported="false" />
+
+        <activity
+            android:name="tz.co.xhcodes.com.PayBillActivity"
+            android:label="Lipa Bill"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.MainActivity"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.PaySavingsActivity"
+            android:label="Weka Akiba"
+            android:noHistory="true"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BusTicketActivity"
+            android:label="Kata Tiketi"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ChooseSeatActivity"
+            android:label="Chagua Siti"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterPassangerActivity"
+            android:label="Taarifa Za Abiria"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.PrintTicketActivity"
+            android:label="Print Tiketi"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ScanTicketActivity"
+            android:label="Hakiki Tiketi"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ReprintTicketActivity"
+            android:label="Printi Tiketi"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RecordParcelActivity"
+            android:label="Taarifa za mzigo"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.LoginActivity"
+            android:label="XHTickets-Login"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ChoosePaymentMethodActivity"
+            android:label="Chagua Malipo"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BusesListActivity"
+            android:label="Chagua Basi"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SearchBTActivity"
+            android:label="Unganisha Printa"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ViewAgentsTicketsActivity"
+            android:label="Tiketi Zangu"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SaccosActivity"
+            android:label="IwachuPay-MFIs"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BusTicketAgentActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ChangePasswordActivity"
+            android:label="@string/change_password_label"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RequestPasswordActivity"
+            android:label="@string/change_password_label"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.JivoActivity"
+            android:label="Agent Help"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="tz.co.xhcodes.com.SavingsReportsActivity"
+            android:label="Savings Report"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterPassangerSelfActivity"
+            android:label="@string/taarifa_za_abiria"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.LoginClientActivity"
+            android:label="XHTickets-Login"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterClientActivity"
+            android:label="XHTickets-Jisajili"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ClientTicketsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.TreniTicketActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BogiesListActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.TreniPassangerActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ViewCollectionsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ViewAgentCollectionsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SuperAgentReportActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ViewSuperAgentsTicketsActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.PayServiceFeeActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ClientBusMenuActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BodaBodaActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.BajajActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.TaxiActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterBodaBodaActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.DriverPaymentMethodActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SearchBodaBodaActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SearchBajajActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterBajajActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.SearchTaxiActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.RegisterTaxiActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.ClientHelpActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="tz.co.xhcodes.com.EditClientAccountActivity"
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:noHistory="true"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize"
+            android:name="tz.co.xhcodes.com.RecoverClientAcPasswordtivity"/>
+    </application>
+
+</manifest>

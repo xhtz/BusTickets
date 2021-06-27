@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">XHTickets</string>
+    <string name="contentdescription">NA</string>
+    <string name="select_company">Chagua Kampuni</string>
+    <string name="safari_date">Tarehe Ya Safari</string>
+    <string name="date_hint">Tarehe</string>
+    <string name="search_label">Tafuta</string>
+    <string name="select_route">Chagua Njia</string>
+    <string name="endelea_label">Endelea</string>
+    <string name="use_as_label">Tumia Kama</string>
+    <string name="welcome_label">Karibu</string>
+    <string name="login_name_label">Jina la Kuingilia</string>
+    <string name="password_label">Neno la Siri</string>
+    <string name="login_btn_label">Ingia</string>
+
+    <string-array name="sex_select">
+        <item>Ke</item>
+        <item>Me</item>
+    </string-array>
+
+    <string-array name="aina_kitambulisho">
+        <item>Mpiga Kura</item>
+        <item>Leseni</item>
+        <item>Pasipoti</item>
+        <item>Utaifa</item>
+    </string-array>
+    <string-array name="treni_classes">
+        <item>Third</item>
+        <item>Second</item>
+        <item>First</item>
+    </string-array>
+    <string-array name="booking_or_cash">
+        <item>Amelipa</item>
+        <item>Booking</item>
+    </string-array>
+    <string-array name="eneo_select">
+        <item>Hapana</item>
+        <item>Ndiyo</item>
+    </string-array>
+    <string-array name="agent_user_select">
+        <item>Mteja</item>
+        <item>Wakala</item>
+    </string-array>
+    <string name="search">Tafuta</string>
+    <string name="lipa_bill">Lipa Bill</string>
+    <string name="bus_ticket">Tiketi Za Bus</string>
+    <string name="weka_akiba">Weka Akiba</string>
+    <string name="lipa_mkopo">Lipa Mkopo</string>
+    <string name="test_printer">Jaribu Printa</string>
+    <string name="connect">Unganisha</string>
+    <string name="logout">Ondoka</string>
+    <string name="verify_ticket">Hakiki Tiketi</string>
+    <string name="reprint_tkt">Printi Tiketi</string>
+    <string name="saccos">MFIs</string>
+    <string name="quit">Ondoka</string>
+    <string name="namba_ya_taasisi">Namba ya Taasisi</string>
+    <string name="namba_ya_mteja">Kumbu Kumbu Namba</string>
+    <string name="kiasi_alicholipa">Kiasi</string>
+    <string name="print">Printi</string>
+    <string name="tuma">Tuma</string>
+    <string name="aina_ya_mzigo">Package Category</string>
+    <string name="jina_la_mtumaji">Shipper Name</string>
+    <string name="simu_ya_mtumaji">Shipper Phone</string>
+    <string name="jina_la_mpokeaji">Receiver Name</string>
+    <string name="simu_ya_mpokeaji">Receiver Phone</string>
+    <string name="kutoka">From</string>
+    <string name="kwenda">To</string>
+    <string name="gharama">Cost</string>
+    <string name="tarehe_ya_kusafirisha">Shipping Date</string>
+    <string name="hifadhi">Save</string>
+    <string name="hint_simu_mfano">Simu mf: 255764XXXYYY</string>
+    <string name="jina_la_abiria">Jina La Abiria</string>
+    <string name="kiasi_nauli">Kiasi Cha Nauli</string>
+    <string name="amelipa_nauli">Amelipa Nauli?</string>
+    <string name="jinsia">Jinsia</string>
+    <string name="anapandia_njiani">Anapandia Njiani?</string>
+    <string name="jina_la_kituo">Jina la Kituo</string>
+    <string name="kituo_cha_kupandia">Kituo Cha Kupandia</string>
+    <string name="kituo_cha_kushukia">Kituo Cha Kushukia</string>
+    <string name="hint_kituo_cha_kushukia">Kituo Cha Kushukia</string>
+    <string name="endelea">Endelea</string>
+    <string name="hint_weka_namba_ya_tiketi">Weka namba ya tiketi</string>
+    <string name="my_deposits">Amana Zangu</string>
+    <string name="deposits_bal">Baki Amana</string>
+    <string name="my_savings">Akiba Zangu</string>
+    <string name="repayments">Malipo Mikopo</string>
+    <string name="savings_bal">Baki Akiba</string>
+    <string name="my_loan">Baki Mkopo</string>
+    <string name="pay_saving">Weka Akiba</string>
+    <string name="repay_loan">Lipa Mkopo</string>
+    <string name="hakiki">Hakiki Tiketi</string>
+    <string name="au">Au</string>
+    <string name="scan">Scan</string>
+    <string name="jumla">Jumla</string>
+    <string name="your_reference_number">Namba ya Kumbukumbu</string>
+    <string name="from_date">Kuanzia</string>
+    <string name="to_date">Mpaka</string>
+    <string name="change_password">Badili Password</string>
+    <string name="change_password_label">Badili Password</string>
+    <string name="current_password">Password Ya Sasa</string>
+    <string name="new_password">Neno la Siri Jipya</string>
+    <string name="badili_label">Badili</string>
+    <string name="request_new_password">Nimesahau password</string>
+    <string name="phone_number">Namba ya Simu</string>
+    <string name="namba_uliyotumiwa">Namba ya siri uliyopokea</string>
+    <string name="jisajili_register">Jisajili</string>
+    <string name="my_tickets">Tiketi Zangu</string>
+    <string name="namba_ya_simu">Namba ya Simu</string>
+    <string name="kuanzia">Kuanzia</string>
+    <string name="mpaka">Mpaka</string>
+    <string name="angalia">Angalia</string>
+
+    <!--boom menu-->
+    <string name="text_inside_circle_button_text_normal">Text Inside Circle Button(Normal)</string>
+
+    <string name="text_outside_circle_button_text_normal">Text Outside Circle Button(Normal)</string>
+
+    <string name="text_ham_button_text_normal">Ham Button Text(Normal)</string>
+    <string name="text_ham_button_sub_text_normal">Ham Button Sub Text(Normal)</string>
+    <string name="sample_name">Sample Name</string>
+    <string name="gusa_tiketi_upate_maelekezo">Gusa Tiketi Upate Maelekezo</string>
+    <string name="na">NA</string>
+    <string name="makusanyo_yangu">Makusanyo Yangu</string>
+    <string name="omba_namba">Omba Namba</string>
+    <string name="_255xxxyyyzzz">anza na 255 au 0</string>
+    <string name="jina_lako">Jina Lako</string>
+    <string name="nambaya_simu">Namba Ya Simu</string>
+    <string name="taarifa_za_abiria">Taarifa Za Abiria</string>
+    <string name="muda_wa_kuwasili">Muda Wa Kuwasili</string>
+    <string name="muda_wa_kuondoka">Muda Wa Kuondoka</string>
+    <string name="sample_amount">22,000</string>
+    <string name="vodacom_m_pesa">Vodacom M-PESA</string>
+    <string name="iwachupay_wallet">IwachuPay Wallet</string>
+    <string name="lipa_mapema_kabla_siti_haijanunuliwa">Lipa Mapema Kabla Siti haijanunuliwa</string>
+    <string name="chagua_gari">Chagua Gari</string>
+    <string name="taarifa_wakala_mkuu">Taarifa Wakala Mkuu</string>
+    <string name="hifadhi_">Hifadhi</string>
+    <string name="lipia_mfumo">Lipia Mfumo</string>
+    <string name="lipa_kwa_m_pesa">LIPA KWA M-PESA</string>
+    <string name="pata_msaada">Pata Msaada</string>
+    <string name="namna_ya_kulipa">Namna Ya Kulipa</string>
+    <string name="_48">48</string>
+    <string name="_47">47</string>
+    <string name="_46">46</string>
+    <string name="_45">45</string>
+    <string name="_44">44</string>
+    <string name="_43">43</string>
+    <string name="_42">42</string>
+    <string name="_41">41</string>
+    <string name="_40">40</string>
+    <string name="_39">39</string>
+    <string name="_38">38</string>
+    <string name="_37">37</string>
+    <string name="_36">36</string>
+    <string name="_35">35</string>
+    <string name="_34">34</string>
+    <string name="_33">33</string>
+    <string name="_32">32</string>
+    <string name="_31">31</string>
+    <string name="_30">30</string>
+    <string name="_29">29</string>
+    <string name="_28">28</string>
+    <string name="_27">27</string>
+    <string name="_26">26</string>
+    <string name="_25">25</string>
+    <string name="_24">24</string>
+    <string name="_23">23</string>
+    <string name="_22">22</string>
+    <string name="_21">21</string>
+    <string name="_20">20</string>
+    <string name="_19">19</string>
+    <string name="_18">18</string>
+    <string name="_17">17</string>
+    <string name="_16">16</string>
+    <string name="_15">15</string>
+    <string name="_14">14</string>
+    <string name="_13">13</string>
+    <string name="_12">12</string>
+    <string name="_11">11</string>
+    <string name="_10">10</string>
+    <string name="_9">9</string>
+    <string name="_8">8</string>
+    <string name="_7">7</string>
+    <string name="_6">6</string>
+    <string name="_5">5</string>
+    <string name="_4">4</string>
+    <string name="_3">3</string>
+    <string name="_2">2</string>
+    <string name="_1">1</string>
+    <string name="driver">Driver</string>
+    <string name="iwachu_blue_coach">Iwachu Blue Coach</string>
+    <string name="date_22_07_2017">Date: 22-07-2017</string>
+    <string name="ticket_number_900900">Ticket Number: 900900</string>
+    <string name="payment_unpaid_23_000">Payment: Unpaid(23,000)</string>
+    <string name="pay">Pay</string>
+    <string name="mteja">Msafiri</string>
+    <string name="wakala">Wakala</string>
+    <string name="boda_boda">Boda Boda</string>
+    <string name="bajaj">Bajaj</string>
+    <string name="taxi">Taxi</string>
+    <string name="msaada">Msaada</string>
+    <string name="nunua_tiketi">Nunua Tiketi</string>
+    <string name="tafuta_dereva">Tafuta Boda Boda</string>
+    <string name="jisajili_kama_dereva">Sajili Boda Boda</string>
+    <string name="akaunti_yangu">Akaunti Yangu</string>
+    <string name="sajili_bajaj">Sajili Bajaj</string>
+    <string name="tafuta_bajaj">Tafuta Bajaj</string>
+    <string name="sajili_taxi">Sajili Taxi</string>
+    <string name="tafuta_taxi">Tafuta Taxi</string>
+    <string name="chagua_mji">Chagua Mji</string>
+    <string name="sajili">Sajili</string>
+    <string name="namba_ya_usajili">Namba Ya Usajili</string>
+    <string name="jina_la_dereva">Jina La Dereva</string>
+    <string name="kituo_chako">Kituo Chako</string>
+    <string name="namba_yasimu">Namba Ya Simu</string>
+    <string name="mtaa">Mtaa</string>
+    <string name="taarifa_za_malipo">Taarifa Za Malipo</string>
+    <string name="tafuta">Tafuta</string>
+    <string name="jina_mtaa_au_kituo">Jina, mtaa au kituo..</string>
+    <string name="akaunti">Akaunti</string>
+    <string name="badili">Badili</string>
+    <string name="neno_la_siri_jipya">Neno La Siri Jipya</string>
+    <string name="invite_deeplink">https://goo.gl/SzkKqe</string>
+    <string name="nimesahau">Nimesahau</string>
+    <string-array name="muda_kufika_select">
+        <item>00:00</item>
+        <item>00:30</item>
+        <item>01:00</item>
+        <item>01:30</item>
+        <item>02:00</item>
+        <item>02:30</item>
+        <item>03:00</item>
+        <item>03:30</item>
+        <item>04:00</item>
+        <item>04:30</item>
+        <item>05:00</item>
+        <item>05:30</item>
+        <item>06:00</item>
+        <item>06:30</item>
+        <item>07:00</item>
+        <item>07:30</item>
+        <item>08:00</item>
+        <item>08:30</item>
+        <item>09:00</item>
+        <item>09:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>12:30</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+        <item>16:00</item>
+        <item>16:30</item>
+        <item>17:00</item>
+        <item>17:30</item>
+        <item>18:00</item>
+        <item>18:30</item>
+        <item>19:00</item>
+        <item>19:30</item>
+        <item>20:00</item>
+        <item>20:30</item>
+        <item>21:00</item>
+        <item>21:30</item>
+        <item>22:00</item>
+        <item>22:30</item>
+        <item>23:00</item>
+        <item>23:30</item>
+    </string-array>
+</resources>

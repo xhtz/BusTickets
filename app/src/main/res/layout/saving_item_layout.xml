@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    app:cardCornerRadius="0dp"
+    android:padding="4dp"
+    android:layout_marginBottom="10dp"
+    >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableLayout
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TableRow android:layout_width="match_parent">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textStyle="normal"
+                    android:id="@+id/rdate_view"
+                    android:text="12-06-2017"
+                    />
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textStyle="normal"
+                    android:id="@+id/receipt_view"
+                    android:text="454EEFEE"
+                    />
+                <TextView
+                    android:gravity="right"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:textStyle="bold"
+                    android:id="@+id/amount_view"
+                    android:text="1,230.00"
+                    />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

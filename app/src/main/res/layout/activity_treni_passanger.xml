@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="tz.co.xhcodes.com.RegisterPassangerActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#ccc"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:inputType="textCapCharacters"
+                android:textAllCaps="true"
+                android:hint="@string/jina_la_abiria"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/passangerTreniNameBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+            <EditText
+                android:inputType="phone"
+                android:layout_marginTop="10dp"
+                android:hint="@string/hint_simu_mfano"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/passangerTreniPhoneBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="Idadi Wakubwa"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/idadiWakubwaBox"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="Idadi Watoto"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/idadiWatotoBox"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Title"
+                android:textColor="#222"
+                android:layout_marginTop="10dp"
+                android:text="Aina Ya Kitambulisho"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Spinner
+                style="@android:style/Widget.Holo.Light.Spinner"
+                android:padding="10dp"
+                android:height="40dp"
+                android:layout_marginTop="10dp"
+                android:entries="@array/aina_kitambulisho"
+                android:id="@+id/passengerAinaKitambulishoSelect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </Spinner>
+            <EditText
+                android:layout_marginTop="10dp"
+                android:hint="Namba ya Kitambulisho"
+                android:textColor="#000"
+                android:padding="6dp"
+                android:height="40dp"
+                android:background="#FFF"
+                android:id="@+id/nambakitambulishoBox"
+                android:inputType="textCapCharacters"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:textColor="#FFF"
+                android:background="@color/cardview_dark_background"
+                android:onClick="saveTicket"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="end"
+                android:textAllCaps="false"
+                android:text="@string/endelea"
+                android:id="@+id/saveTicketButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomScrollView>

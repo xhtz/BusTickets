@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomLinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="tz.co.xhcodes.com.ReprintTicketActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="@color/redColor"
+            android:padding="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+                <EditText
+                    android:inputType="number"
+                    android:id="@+id/searchTicketBox"
+                    android:hint="@string/hint_weka_namba_ya_tiketi"
+                    android:background="#FFF"
+                    android:padding="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+                <Button
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="end"
+                    android:textAllCaps="false"
+                    android:text="@string/search_label"
+                    android:onClick="searchTicket"
+                    android:textColor="@color/whiteColor"
+                    android:background="@color/colorPrimaryOri"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomLinearLayout>

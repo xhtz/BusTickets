@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ProgressBar
+        android:id="@+id/progressBarSearchStatus"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" />
+<TableLayout
+    android:layout_below="@+id/progressBarSearchStatus"
+    android:id="@+id/buttons_table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_width="match_parent"
+        >
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/buttonSearch"
+        android:layout_height="80dp"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="@string/search" />
+        <Button
+            android:onClick="selectPaired"
+            android:textAllCaps="false"
+            android:id="@+id/buttonSelectPaired"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:text="Select Paired" />
+    </TableRow>
+</TableLayout>
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttons_table" >
+
+        <LinearLayout
+            android:id="@+id/linearlayoutdevices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

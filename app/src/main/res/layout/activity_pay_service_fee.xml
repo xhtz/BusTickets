@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tz.co.xhcodes.com.PayServiceFeeActivity"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/pay_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/lipa_kwa_m_pesa"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/namna_ya_kulipa"
+        android:textStyle="normal"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:id="@+id/pay_instructions_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="start"
+        android:text=""
+        android:padding="16dp"
+       />
+
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/kesho_bill_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:gravity="center"
+        android:padding="16dp"
+        />
+
+</LinearLayout>

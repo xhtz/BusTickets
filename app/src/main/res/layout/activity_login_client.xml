@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tz.co.xhcodes.com.CustomScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="tz.co.xhcodes.com.LoginClientActivity">
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="10dp"
+        android:padding="10dp"
+        android:layout_gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/redColor"
+            android:orientation="vertical"
+            android:padding="6dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="@string/namba_ya_simu"
+                        android:textSize="16dp"
+                        android:textColor="#333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="HardcodedText,SpUsage" />
+
+                    <EditText
+                        android:hint="@string/_255xxxyyyzzz"
+                        android:background="#FFF"
+                        android:id="@+id/login_phone_box"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:drawableRight="@drawable/phone"
+                        android:inputType="phone"
+                        tools:ignore="RtlHardcoded" />
+
+                    <TextView
+                        android:text="@string/password_label"
+                        android:textSize="16dp"
+                        android:textColor="#333"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        tools:ignore="SpUsage" />
+
+                    <EditText
+                        android:background="#FFF"
+                        android:id="@+id/login_pass_box"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="textPassword"
+                        android:drawableRight="@drawable/user_password"
+                        tools:ignore="RtlHardcoded" />
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TableRow>
+                    <Button
+                        android:layout_marginBottom="6dp"
+                        android:textColor="@color/whiteColor"
+                        android:background="@color/colorPrimaryOri"
+                        android:textAllCaps="false"
+                        android:id="@+id/login_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/login_btn_label"
+                        android:onClick="loginCient"
+                        tools:ignore="RtlHardcoded"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginEnd="2dp"
+                        />
+                    <Button
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginBottom="6dp"
+                        android:textColor="@color/whiteColor"
+                        android:background="@color/colorPrimaryOri"
+                        android:textAllCaps="false"
+                        android:id="@+id/forgot_btn"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nimesahau"
+                        android:onClick="recoverPassword"
+                        tools:ignore="RtlHardcoded" />
+                </TableRow>
+            </TableLayout>
+                    <Button
+                        android:textAllCaps="false"
+                        android:background="@color/colorPrimaryOri"
+                        android:onClick="registerClient"
+                        android:textColor="@color/whiteColor"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="4dp"
+                        android:paddingBottom="0dp"
+                        android:text="@string/jisajili_register"
+                        />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</tz.co.xhcodes.com.CustomScrollView>
